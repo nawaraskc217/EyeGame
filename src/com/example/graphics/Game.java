@@ -65,10 +65,11 @@ public class Game  {
 	 */
 	private void initialize() {
 //		Border border = BorderFactory.createLineBorder(Color.BLACK, 1);
-		frame = new JFrame();
-		frame.setBounds(100, 100, 240, 300);
+		frame = new JFrame("PartyStuff Numbers");
+		frame.setBounds(500, 300, 240, 300);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.getContentPane().setLayout(null);
+		frame.setForeground(Color.RED);
 		int i=1;
 		jlabel[1]  = new JLabel("1");
 //		lblNewLabel.setBorder(border);
